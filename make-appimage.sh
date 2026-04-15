@@ -12,6 +12,7 @@ export ICON=/usr/share/icons/hicolor/192x192/apps/OrcaSlicer.png
 export DESKTOP=/usr/share/applications/OrcaSlicer.desktop
 export PATH_MAPPING_HARDCODED=orca-slicer
 export DEPLOY_P11KIT=1
+export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 quick-sharun \
