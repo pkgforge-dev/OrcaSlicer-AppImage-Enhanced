@@ -16,10 +16,11 @@ export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 quick-sharun \
-	/usr/lib/OrcaSlicer/orca-slicer \
-	/usr/share/OrcaSlicer           \
-	/usr/lib/libnss_myhostname.so*  \
-	/usr/lib/libnss_mdns4_minimal.so*
+	/usr/lib/OrcaSlicer/orca-slicer   \
+	/usr/share/OrcaSlicer             \
+	/usr/lib/libnss_myhostname.so*    \
+	/usr/lib/libnss_mdns4_minimal.so* \
+	/usr/lib/gtk-3*/modules/libxapp-gtk3-module.so
 
 # Additional changes can be done in between here
 
