@@ -16,11 +16,9 @@ export DEPLOY_OPENGL=1
 
 # Deploy dependencies
 quick-sharun \
-	/usr/bin/orca-slicer           \
-	/usr/lib/OrcaSlicer            \
-	/usr/share/OrcaSlicer          \
-	/usr/lib/libgtk-3.so*          \
-	/usr/lib/libnss_myhostname.so* \
+	/usr/lib/OrcaSlicer/orca-slicer \
+	/usr/share/OrcaSlicer           \
+	/usr/lib/libnss_myhostname.so*  \
 	/usr/lib/libnss_mdns4_minimal.so*
 
 # Additional changes can be done in between here
