@@ -19,6 +19,7 @@ quick-sharun \
 	/usr/bin/orca-slicer           \
 	/usr/lib/OrcaSlicer            \
 	/usr/share/OrcaSlicer          \
+	/usr/lib/libgtk-3.so*          \
 	/usr/lib/libnss_myhostname.so* \
 	/usr/lib/libnss_mdns4_minimal.so*
 
